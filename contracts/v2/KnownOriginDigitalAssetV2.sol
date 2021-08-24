@@ -166,7 +166,7 @@ Pausable
   /*
    * Constructor
    */
-  constructor () public payable ERC721Token("KnownOriginDigitalAsset", "KODA") {
+  constructor () public payable ERC721Token("CryptoArtToken", "CART") {
     // set commission account to contract creator
     koCommissionAccount = msg.sender;
   }
